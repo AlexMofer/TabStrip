@@ -7,10 +7,10 @@ android {
         minSdkVersion 9
         targetSdkVersion 25
         versionCode 31
-        versionName "25.2.0"
+        versionName "25.3.0"
     }
 }
 
 dependencies {
-    compile 'am.widget:basetabstrip:25.2.0'
+    compile 'am.widget:basetabstrip:25.3.0'
 }
