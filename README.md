@@ -7,14 +7,14 @@
 ## 预览
 ![Screenshots](https://raw.githubusercontent.com/AlexMofer/ProjectX/master/gradienttabstrip/screenshots.gif)
 ## 要求
-- minSdkVersion 14
+- minSdkVersion 9
 - 保持跟其他官方支持库版本一致（如：com.android.support:appcompat-v7）
 
 ## 引用
 ```java
 dependencies {
     ⋯
-    compile 'am.widget:gradienttabstrip:26.0.0-alpha1'
+    compile 'am.widget:gradienttabstrip:25.4.0'
     ⋯
 }
 ```
@@ -63,6 +63,7 @@ tabStrip.bindViewPager(viewPager);
 - 保持跟其他官方支持库版本一致（如：com.android.support:appcompat-v7），否则可能出现错误
 
 ## 历史
+- [**26.0.0-alpha1**](https://bintray.com/alexmofer/maven/GradientTabStrip/26.0.0-alpha1)
 - [**25.3.1**](https://bintray.com/alexmofer/maven/GradientTabStrip/25.3.1)
 - [**25.3.0**](https://bintray.com/alexmofer/maven/GradientTabStrip/25.3.0)
 - [**25.2.0**](https://bintray.com/alexmofer/maven/GradientTabStrip/25.2.0)
