@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.0-rc1"
+    buildToolsVersion "26.0.0-rc2"
     defaultConfig {
         applicationId "am.example.gradienttabstrip"
         minSdkVersion 14
@@ -13,7 +13,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:26.0.0-beta1'
-    compile 'com.android.support:design:26.0.0-beta1'
+    compile 'com.android.support:appcompat-v7:26.0.0-beta2'
+    compile 'com.android.support:design:26.0.0-beta2'
     compile project(':gradienttabstrip')
 }
